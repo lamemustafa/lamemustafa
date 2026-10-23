@@ -8,6 +8,20 @@
 
 I'm **Tapish Khandelwal**. I build **[ComplyEaze](https://complyeaze.com)** - open-source software for India's compliance professionals, primarily CA firms.
 
+#### Work with me
+
+I take on a few fixed-price integration projects.
+
+**Get your MCP server's sign-in working with Claude.** If your remote MCP server's OAuth flow fails in claude.ai, Claude Desktop or Claude Code, I find the step that breaks and fix it on your side.
+- A free 20-minute triage comes first. If the fault is on Claude's side, I tell you and you pay nothing.
+- Otherwise it is $500 fixed, delivered in 3 working days, paid upfront.
+
+**SSO and SCIM for B2B SaaS.** SAML or OIDC sign-in, and SCIM provisioning with Okta and Microsoft Entra ID. I test against my own SCIM recorder. For example, Entra's custom SCIM connector disables a user by sending `active` as the string `"False"` (captured 21 Oct 2026).
+
+Background: backend engineer at G2 from 2019 to 2023, where I built and reworked the Okta, Azure AD, Microsoft 365 and Duo integrations and a QuickBooks OAuth 2.0 flow. I wrote [ComplyEaze Bridge](https://github.com/ComplyEaze/bridge), an open-source MCP server listed in the official MCP Registry. You can read my answers on connector issues in [anthropics/claude-ai-mcp](https://github.com/anthropics/claude-ai-mcp/issues?q=commenter%3Alamemustafa).
+
+Email: tapish@complyeaze.com
+
 India runs compliance at machine scale: 69,000+ distinct obligations across 1,536 Acts¹, AI-flagged mismatches, notices by the lakh. It lands on roughly 1.55 lakh full-time practicing CAs² - most of them in single-partner firms who answer it one portal login, one captcha, one PDF at a time.
 
 Their software forces a bad trade: desktop tools from another decade, or cloud platforms that ask for blind trust with the most sensitive commercial data in India. We're building the third option: tools that state their trust boundary, ship with evidence, and keep their source public.
